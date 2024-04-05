@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root,
+htmk,
+body {
+    height: 100%;
+    font-family: sans-serif, Arial, Helvetica, 'Roboto', 'Noto Sans', 'Droid Sans', 'Liberation Sans', 'Fira Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
