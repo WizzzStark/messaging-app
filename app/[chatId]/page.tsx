@@ -33,9 +33,9 @@ const ChatPage = ({ params }: ChatProps) => {
     );
 
     return (
-        <div className="flex h-full">
+        <div className="flex h-full w-full">
             <Sidebar />
-            <div className="h-full relative overflow-y-auto bg-[#212121]">
+            <div className="h-full relative overflow-y-auto bg-[#212121] w-full">
             <div className="h-full flex flex-col bg-[#212121]">
                 <Body messages={chatWithMessages.messagesWithUsers} />
                 <Form
